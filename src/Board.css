@@ -1,0 +1,22 @@
+.containerBoard {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+
+}
+
+img{
+  flex-basis: auto;
+  height: 50px
+}
+
+.unit {
+padding-top: 15px;
+flex-basis: 170px;
+text-align: right;
+
+}
+
+
+
+

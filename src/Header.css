@@ -1,0 +1,43 @@
+.headerTitle{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+.headerBoard{
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /*padding: 15px 0px 15px 0px;*/
+  border-bottom: 1px solid black;
+}
+
+.headerUnit {
+  flex-basis: 250px;
+  text-align: right;
+}
+
+
+.inactive{
+  margin-left: 10px;
+  width:15px;
+  height: 15px;
+  border-radius: 5px;
+  background-color: rgba(187, 180, 214, 0.3)  ;/*#BBB4D6*/
+}
+
+.active{
+  margin-left: 10px;
+  width:15px;
+  height: 15px;
+  border-radius: 5px;
+  background-color: #00FF00;
+}
+
+button:focus {
+  outline: none; }
